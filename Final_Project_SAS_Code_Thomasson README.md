@@ -1,3 +1,4 @@
+```sas
 *Introduction;
 *The following code will allow you to pull financial data down from Compustat via SAS Studio with WRDS (sponsored by Wharton), make variables for current and deferred taxes, large positive and large negative book-tax differences, Pre-tax book income, pre-tax cash flows, and pre-tax accruals (all scaled by average total assets), and then run the regressions needed to replicated and extend Hanlon (2005);
 
@@ -203,3 +204,4 @@ run;
 
 %run_analysis(1993, 2001);
 %run_analysis(1993, 2023);
+```
